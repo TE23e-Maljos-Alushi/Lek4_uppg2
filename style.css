@@ -1,0 +1,73 @@
+body{
+       background-image: url(./img/winter-snow.jpg);
+}
+
+h1{
+    text-align: center;
+    border:4px black;
+    background-color: gray;
+    color: azure;
+}
+
+.santa{
+    border: 6px solid;
+     text-align: right;
+     flex-direction: row;
+     display:flex;
+     justify-content: space-between;
+}
+.viktig{
+    color: azure;
+    background-color: gray;
+    border: 2px solid #efdf0b;
+    margin-left: 40%;
+    margin-right: 40%;
+    ul{
+        color: white ;
+        position: right;
+    }
+    .julafton{
+        background-color: white;
+        color: red;
+    }
+    .nyårsdagen{
+         background-color: rgb(191, 191, 9)
+    }
+}
+
+table,td,th{
+    border: 2px solid;
+}
+table{
+    width: 90%;
+    border-collapse: collapse;
+    margin-right: 100px;
+}
+th{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.vecka{
+    background-color: rgb(198, 198, 198);
+    font-size: 200%;
+}
+.dagar{
+    background-color: bisque;
+    font-size: 300%;
+}
+#redday{
+  color: #e61919;
+}
+.fireworks{
+    border: 4px solid black;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+.calendar{
+    border: 4px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #ce4b4b;
+}
